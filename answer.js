@@ -1,4 +1,4 @@
-// q-1
+// question no.1
 function describeValue(value) {
     let typeName = typeof value;
     let booleanResult = "falsy";
@@ -11,7 +11,7 @@ function describeValue(value) {
 }
 
 
-// q-2
+// question no.2
 
 function getDayType(dayName) {
     let lowerDay = dayName.toLowerCase();
@@ -31,7 +31,7 @@ function getDayType(dayName) {
     }
 }
 
-// q-3
+// question no.3
 
 function validateUsername(username) {
     if (username.length < 4) {
@@ -51,7 +51,7 @@ function validateUsername(username) {
 }
 
 
-q-4
+// question no.4
 
 function getCngFare(distance, isNight = false, waitingMinutes = 0) {
     let fare = 50;
@@ -72,7 +72,7 @@ function getCngFare(distance, isNight = false, waitingMinutes = 0) {
 }
 
 
-q-5
+// question no.5
 
 const getChaseVerdict = (target, scored, ballsLeft) => {
     let runsNeeded = target - scored;
